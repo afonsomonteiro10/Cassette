@@ -1,15 +1,21 @@
 # Cassette
-
 Projeto realizado por: Afonso Monteiro & Bruno Evangelista
 
-* Tema
-O tema deste projeto é Pomodoro(1). O objetivo é criar uma página onde as pessoas possam ouvir musica calma enquanto um relógio com um cronometro marca o tempo de estudo. Ao final desse tempo, um alarme soa e marca o intervalo de poucos minutos, após o intervalo, mais um alarme soa marcando o inicio do novo periodo de estudo. 
+Tema
+O tema deste projeto é a Técnica Pomodoro¹. O objetivo é criar uma página onde os utilizadores possam ouvir música calma enquanto um cronómetro marca o tempo de estudo. Ao fim desse tempo, um alarme soa e inicia-se um curto intervalo. Após o intervalo, outro alarme marca o início de um novo período de estudo.
 
-(1)A Técnica Pomodoro é um método de gestão de tempo que visa otimizar a produtividade e o foco. Consiste em dividir o trabalho em intervalos de tempo fixos, chamados "pomodoros", normalmente de 25 minutos, separados por pequenas pausas. O objetivo é manter a concentração intensa durante esses intervalos e evitar a procrastinação
+¹ A Técnica Pomodoro é um método de gestão de tempo que visa otimizar a produtividade e o foco. Consiste em dividir o trabalho em intervalos fixos, chamados pomodoros, normalmente de 25 minutos, separados por pequenas pausas. O objetivo é manter uma concentração intensa durante esses períodos e evitar a procrastinação.
 
-* Funionalidades
-Teremos uma video de fundo que muda a cada musica. As musicas estaram em playlist já criadas por nós e o utilizador apenas poderá escolher que playlist tocar, e ela tocará aleatóriamente. 
-O cronómetro será personalizavel. Podemos marcar os tempos de 5 em 5 minutos desde 30 minutos até 50 minutos. os intervalos também têm tempos entre 5 e 10 minutos. 
+Funcionalidades
+Vídeo de fundo que muda conforme a música.
 
+Playlists previamente criadas por nós; o utilizador pode escolher qual playlist deseja ouvir, e as músicas tocam de forma aleatória.
 
-as web api a utilixar: Ainda por definir. 
+Cronómetro personalizável:
+
+Períodos de estudo ajustáveis de 30 a 50 minutos, em incrementos de 5 minutos.
+
+Intervalos ajustáveis entre 5 e 10 minutos.
+
+Web APIs a utilizar
+Ainda por definir.
