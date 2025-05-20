@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro Cassette</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Vídeo de fundo -->
+  <video id="video-fundo" autoplay muted loop>
+    <source src="Videoaindaporescolher" type="video/mp4" />
+    O teu browser não suporta vídeo.
+  </video>
+
+  <!-- Camada de conteúdo -->
+  <div id="conteudo">
+    <h1>Pomodoro Cassette</h1>
+
+    <!-- Temporizador -->
+    <div id="temporizador">30:00</div>
+
+    <!-- Controlos de tempo -->
+    <div id="controlos">
+      <label>
+        Estudo:
+        <select id="tempo-estudo">
+          <option value="30">30 min</option>
+          <option value="35">35 min</option>
+          <option value="40">40 min</option>
+          <option value="45">45 min</option>
+          <option value="50">50 min</option>
+        </select>
+      </label>
+
+      <label>
+        Pausa:
+        <select id="tempo-pausa">
+          <option value="5">5 min</option>
+          <option value="10">10 min</option>
+        </select>
+      </label>
+    </div>
+
+    <!-- Botões -->
+    <div id="botoes">
+      <button id="iniciar">Iniciar</button>
+      <button id="pausar">Pausar</button>
+      <button id="resetar">Resetar</button>
+    </div>
+
+    <!-- Escolha de playlists -->
+    <div id="playlists">
+      <h2>Escolhe uma playlist:</h2>
+      <select id="escolher-playlist">
+        <option value="lofi">Lofi Chill</option>
+        <option value="focus">Foco Instrumental</option>
+        <option value="ambiente">Ambiente Relax</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
