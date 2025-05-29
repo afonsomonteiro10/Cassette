@@ -10,7 +10,7 @@
 
   <!-- Vídeo de fundo -->
   <video id="video-fundo" autoplay muted loop>
-    <source id="fonte-video" src="caoEstudioso.mp4" type="video/mp4" />  
+    <source id="fonte-video" src="video-manha.mp4" type="video/mp4" />  
     O teu browser não suporta vídeo.
   </video>
 
@@ -20,8 +20,7 @@
 
     <!-- Temporizador -->
     <div id="temporizador">30:00</div>
-    <div id="modo-ativo"> Modo: Estudo</div>
-
+    <div id="modo-ativo">Modo: Estudo</div>
 
     <!-- Controlos de tempo -->
     <div id="controlos">
@@ -53,18 +52,41 @@
       <button id="resetar">Resetar</button>
     </div>
 
-    <!-- Escolha de playlists -->
+    <!-- Escolha de tema e playlists -->
     <div id="playlists">
-      <h2>Escolhe uma playlist:</h2>
-      <select id="escolher-playlist">
-        <option value="lofi">Lofi Chill</option>
-        <option value="focus">Foco Instrumental</option>
-        <option value="ambiente">Ambiente Relax</option>
-      </select>
+      <h2>Escolhe o tema e a playlist:</h2>
+      <label>
+        Tema:
+        <select id="escolher-tema">
+          <option value="manha">Manhã</option>
+          <option value="tarde">Tarde</option>
+          <option value="noite">Noite</option>
+        </select>
+      </label>
+
+      <label>
+        Playlist:
+        <select id="escolher-playlist"></select>
+      </label>
+    </div>
+
+    <!-- Controlo de música -->
+    <div id="musica-controls">
+      <label>
+        Volume:
+        <input type="range" id="volume-musica" min="0" max="100" value="50" />
+      </label>
+
+      <button onclick="musicaAnterior()">⏮️</button>
+      <button onclick="proximaMusica()">⏭️</button>
     </div>
   </div>
 
-  <!-- JS -->
+  <!-- Player YouTube invisível -->
+  <div id="yt-player" style="display: none;"></div>
+
+  <!-- Scripts -->
+  <script src="scriptPlayer.js"></script>
   <script src="prod/script.js"></script>
 </body>
 </html>
