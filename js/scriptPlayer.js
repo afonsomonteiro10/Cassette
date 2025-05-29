@@ -18,7 +18,7 @@ const playlists = {
 };
 
 const fundosPorTema = {
-  manha: "chill01.mp4",
+  manha: "assets/chill01.mp4",
   tarde: "video-tarde.mp4",
   noite: "video-noite.mp4"
 };
