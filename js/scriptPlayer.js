@@ -18,9 +18,9 @@ const playlists = {
 };
 
 const fundosPorTema = {
-  manha: "assets/chill01.mp4",
-  tarde: "video-tarde.mp4",
-  noite: "video-noite.mp4"
+  manha: "assets/manha.mp4",
+  tarde: "assets/tarde.mp4",
+  noite: "assets/noite.mp4"
 };
 
 // Carregar YouTube IFrame API
