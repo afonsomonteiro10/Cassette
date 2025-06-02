@@ -7,13 +7,19 @@ let pauseMusicId = "gJj1Hxm4T9E"; // Música de pausa (vídeo simples do YouTube
 
 const playlists = {
   manha: [
-    "PLfP6i5T0-DkIkXUym_3Be2Z8IENeuOqyk"
+    "PLyr0btqywehLFLQf5FOHfEWr_l6Ajhffa",
+    "PLyr0btqywehKXatXxSz7LxYi6oxri5Clx",
+    "PLyr0btqywehL4MgWN2vU7dZI829GovSQt"
   ],
   tarde: [
-    "RDQMBhsv11k6D4Q"
+    "PLyr0btqywehJjaTwI02L5Bdbioo7yXcyX",
+    "PLyr0btqywehIKpGwnTKcaLfOUpB3StJlA",
+    "PLyr0btqywehK-9Tm_LAVZg5oukE2DfIrk"
   ],
   noite: [
-    "PL7v1FHGMOadDghZ1m-jEIUnVUsGMT9jbH"
+    "PLyr0btqywehKKLBjo8jYWT6g1GdzePTNJ",
+    "PLyr0btqywehJ9L7kaEBAuvmeye45xbL2V",
+    "PLyr0btqywehK80zzclrMCAQorykHHFuLT"
   ]
 };
 

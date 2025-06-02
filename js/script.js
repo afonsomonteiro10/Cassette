@@ -13,7 +13,7 @@ let intervalo = null;
 let ativo = false;
 
 // Som
-const beep = new Audio('beep.mp3'); // ficheiro de som curto
+const beep = new Audio('assets/beep.mp3'); // ficheiro de som curto
 
 function atualizarDisplay() {
   const minutos = Math.floor(tempoAtual / 60);
