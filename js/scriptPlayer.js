@@ -130,3 +130,7 @@ const botaoPausar = document.getElementById("pausar");
 botaoPausar.addEventListener("click", () => {
   pausarMusica();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  atualizarPlaylists("manha");
+});
