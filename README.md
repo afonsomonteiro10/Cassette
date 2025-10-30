@@ -19,3 +19,5 @@ Intervalos ajustáveis entre 5 e 10 minutos.
 
 Web APIs a utilizar
 Ainda por definir.
+
+https://afonsomonteiro10.github.io/Cassette/
